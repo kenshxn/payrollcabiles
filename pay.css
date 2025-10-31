@@ -21,7 +21,7 @@
         
         h1 {
             text-align: center;
-            color: #0011ff;
+            color: #bb0d8f;
             margin-bottom: 20px;
             margin-right: 20px;
             font-family: 'Times New Roman', Times, serif;
@@ -41,7 +41,7 @@
         }
         
         button {
-            background: #007bff;
+            background: #bb0d8f;
             color: white;
             border: none;
             padding: 10px;
@@ -68,4 +68,5 @@
         }
         #display-net-pay{
             color: green;
+
         }
