@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll System</title>
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+
+    <div id="pay-page" class="page active">
+        <h1>Payroll Input</h1>
+        
+        <div>
+            <label>First Name:</label>
+            <input type="text" id="employee-name">
+        </div>
+        
+        <div>
+            <label>Middle Name:</label>
+            <input type="text" id="employee-middle">
+        </div>
+        
+        <div>
+            <label>Last Name:</label>
+            <input type="text" id="employee-last">
+        </div>
+        
+        <div>
+            <label>Employee ID:</label>
+            <input type="text" id="employee-id">
+        </div>
+        
+        <div>
+            <label>Position:</label>
+            <input type="text" id="employee-position">
+        </div>
+        
+        <div>
+            <label>Hourly Rate (₱):</label>
+            <input type="number" id="hourly-rate">
+        </div>
+        
+        <div>
+            <label>Days Worked:</label>
+            <input type="number" id="days-worked">
+        </div>
+        
+        <button id="calculate">Calculate Payroll</button>
+    </div>
+    <div id="display-page" class="page">
+        <h1>Payroll Results</h1>
+        
+        <h2>Employee Information</h2>
+        <div id="display-name" ></div>
+        <div id="display-id"></div>
+        <div id="display-position" ></div>
+        
+        <h2>Payroll Details</h2>
+        <div id="display-rate"></div>
+        <div id="display-days" ></div>
+        <div id="display-gross" ></div>
+        
+        <div class="deduc">
+            <h2>Deductions</h2>
+            <div id="display-sss" ></div>
+            <div id="display-pagibig"></div>
+            <div id="display-philhealth" ></div>
+            <div id="display-tax"></div>
+            <div id="display-total-deductions"></div>
+        </div>
+        <h2 id="display-net-pay"></h2>
+        
+        <button id="back">Back to Input</button>
+    </div>
+
+    <script src="pay.js"></script>
+</body>
+</html>
